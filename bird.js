@@ -13,7 +13,7 @@ function check() {
   if (question3 == "Mixed Forests") {
     correct++;
   }
-
+  var test = "";
   var pictures = ["1.jpeg", "2.jpeg", "3.jpeg"];
   var messages = [
     "Great job!",

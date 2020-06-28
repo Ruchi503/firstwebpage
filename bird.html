@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>BestBird!</title>
+<link href ="bird.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src = "bird.js"></script>
+
+</head>
+
+
+<body>
+<h1>BestBird!</h1>
+<h2>Test Your Knowledge on Birds!</h2>
+
+
+<form id = "quiz" name = "quiz">
+
+
+<p class = "questions">What is the name of this bird?</p>
+<img src="blue.jpg" alt="" style="width: 400px;height: 200px;" >
+<input id = "textbox" type = "text" name = "question1">
+
+<p class = "questions">What is its species?</p>
+<input type = "radio" id = "mc" name = "question2" value = "N.Blueya">C.Cristata<br>
+<input type = "radio" id = "mc" name = "question2" value = "C.Cristata"> N.Blueya<br>
+
+<p class = "questions">What is its habitat?</p>
+
+<input type = "radio" id = "mc" name = "question3" value = "Mixed Forests"> Streams, and Rivers<br>
+<input type = "radio" id = "mc" name = "question3" value = "Streams, and Rivers">Mixed Forests<br>
+
+
+<input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+<img id = "picture">
+</div>
+</html>
+
+</body>
+
